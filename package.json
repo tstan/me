@@ -2,7 +2,7 @@
   "name": "about",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tstan.github.io/about/",	 
+  "homepage": "theo-tan.com",	 
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
