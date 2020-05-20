@@ -1,4 +1,4 @@
-name: create-react-app CI
+name: Theo's Website CI/CD
 
 on:
   push:
