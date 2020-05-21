@@ -1,68 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# tstan/about
 
-## Available Scripts
+My personal website built entirely with React.js is compiled to a set of static files and hosted for free here on GitHub.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+- `npm i` - install dependencies
+- `npm start` - node server starts running on http://localhost:3000
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+That's it.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Deployment
 
-### `npm test`
+Completely automatic through GitHub Actions! Just push to `master` and watch it go.
+My domain name "theo-tan.com" is registered by Google Domains. I'm able to host it here through creating an A record which points to GitHub Pages' IP addresses.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Design
 
-### `npm run build`
+I am no front-end magician but will do my best to get close to the mockup below.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Website UX/UI Prototype](https://xd.adobe.com/view/1405548f-ad52-49fe-434d-d7f6e84f1953-6234/screen/7a80f5a4-0e0e-4e78-8a95-e20b9ebb2b85/Homepage-1?fbclid=IwAR0u8iXEU20k9ktzoqtVPzZBYtdbKo-1Rv-1SYsB9o6v_3CWfXSR3k5vvq0)

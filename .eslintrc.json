@@ -12,6 +12,7 @@
   },
   "plugins": ["react"],
   "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended"],
+  "ignorePatterns": ["build/*"],
   "rules": {
     "quotes": ["error", "single"],
     "no-use-before-define": ["error", { "functions": false }],
