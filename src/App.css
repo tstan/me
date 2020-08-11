@@ -14,10 +14,6 @@
   height: var(--space-small);
 }
 
-.section-first {
-  height: 85vh;
-}
-
 section {
   padding-top: var(--space-small);
   height: 100vh;

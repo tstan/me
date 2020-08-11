@@ -5,7 +5,12 @@ import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-function App() {
+const App = () => {
+  const smoothScrollToAnchor = (anchor) => {
+    const anchorNode = document.getElementById(anchor);
+    anchorNode.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <div>
       <Router>
@@ -14,12 +19,12 @@ function App() {
             <span className="green-text">THEODORE </span>
             <span className="grey-text">TAN</span>
           </Navbar.Brand>
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">HOME</Nav.Link>
-            <Nav.Link href="#about">ABOUT</Nav.Link>
-            <Nav.Link href="#resume">RESUME</Nav.Link>
-            <Nav.Link href="#projects">PROJECTS</Nav.Link>
-            <Nav.Link href="#contact">CONTACT</Nav.Link>
+          <Nav className="mr-auto" onSelect={(e) => smoothScrollToAnchor(e)}>
+            <Nav.Link eventKey="home">HOME</Nav.Link>
+            <Nav.Link eventKey="about">ABOUT</Nav.Link>
+            <Nav.Link eventKey="resume">RESUME</Nav.Link>
+            <Nav.Link eventKey="projects">PROJECTS</Nav.Link>
+            <Nav.Link eventKey="contact">CONTACT</Nav.Link>
           </Nav>
         </Navbar>
       </Router>
@@ -83,6 +88,6 @@ function App() {
       </section>
     </div>
   );
-}
+};
 
 export default App;
