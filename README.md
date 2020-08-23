@@ -1,4 +1,4 @@
-# tstan/about
+# About Theo
 
 My personal website built entirely with React.js is compiled to a set of static files and hosted for free here on GitHub.
 
