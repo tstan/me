@@ -16,6 +16,4 @@ My domain name "theo-tan.com" is registered by Google Domains. I'm able to host 
 
 ## Design
 
-I am no front-end magician but will do my best to get close to the mockup below.
-
-[Website UX/UI Prototype](https://xd.adobe.com/view/1405548f-ad52-49fe-434d-d7f6e84f1953-6234/screen/7a80f5a4-0e0e-4e78-8a95-e20b9ebb2b85/Homepage-1?fbclid=IwAR0u8iXEU20k9ktzoqtVPzZBYtdbKo-1Rv-1SYsB9o6v_3CWfXSR3k5vvq0)
+I am no front-end magician. This website illustrates that.
