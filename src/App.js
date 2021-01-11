@@ -106,7 +106,7 @@ const EchoEducation = () => {
     <React.Fragment>
       <div className="terminal_prompt">
         <Prompt />
-        <span className="prompt_text">echo &#36;&#123;EDUCATION&#125;</span>
+        <span className="prompt_text">echo &#36;EDUCATION</span>
       </div>
       <div className="terminal_prompt_output">B.S. Computer Science, Cal Poly SLO, Jun 2017</div>
     </React.Fragment>
